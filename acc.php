@@ -17,11 +17,7 @@
     <input type="submit"name= "bSubmit"value="Submit">
     </form>
 <?php
-    if (isset($_POST["bSubmit"])&&($_POST["bSubmit"]=="Submit")){
-        echo "<script language='javascript'>window.open('https://www.facebook.com/')</script>";
     
-    }else
-    echo "khong";
 ?>
 </body>
 </html>
